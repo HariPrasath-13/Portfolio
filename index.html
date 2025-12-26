@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .custom-img {
+        display: block;
+        width: 250px; /* sets width */
+        height: 250px; /* sets height */
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>PORTFOLIO</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar bg-black text-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">
+          <div class="badge text-white bg-black text-wrap" style="width: 10rem">
+            HARI PRASATH
+          </div>
+        </a>
+        <ul class="nav nav-underline">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section
+      class="hero d-flex bg-black align-items-center justify-content-center text-center vh-100"
+      id="hero"
+    >
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-6">
+            <h1 class="text-white">HARI PRASATH</h1>
+            <p class="text-white">
+              “I am an Information Technology student focused on designing
+              efficient, scalable, and user-friendly systems. Let’s build
+              technology that makes a difference!”
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="hari-removebg-preview.png" class="vh-20 vw-50" alt />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white text-black" id="about">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <!-- Image column -->
+          <div class="col-md-3 me-5">
+            <img
+              src="WhatsApp Image 2025-12-23 at 12.00.04_870a9e4e.jpg"
+              class="custom-img rounded-3 shadow-lg-show img-fluid"
+              alt="About Me Image"
+            />
+          </div>
+
+          <!-- Text column -->
+          <div class="col-md-6 text-start">
+            <h2>About Me</h2>
+            <p class="lead">
+              I'm <strong>Hari Prasath</strong>, a developer passionate about
+              Python programming, automation, and practical solutions. I design
+              applications that streamline workflows and address real-world
+              challenges with modular, reliable code. Exploring new technologies
+              inspires me to transform ideas into scalable and impactful
+              projects.
+            </p>
+            <p>
+              I specialize in debugging, refining programs for clarity, and
+              optimizing performance for efficiency. My focus is on building
+              systems that balance functionality with user-friendly design and
+              simplicity. Committed to growth, I stay updated with the latest IT
+              trends to deliver innovative solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="bg-white py-5">
+      <div class="container">
+        <!-- Heading -->
+        <h2 class="fw-bold text-center mb-4">Projects</h2>
+
+        <!-- Cards row -->
+        <div class="d-flex justify-content-center gap-4 flex-wrap">
+          <!-- Card 1 -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="88060Learn-Facial-Recognition-scaled.jpg"
+              class="card-img-top"
+              style="height: 200px; object-fit: cover"
+              alt="Project 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">EMOTION DETECTION</h5>
+              <p class="card-text">
+                Emotion detection with cascade ML quickly detects faces using
+                layered classifiers, then classifies expressions. It identifies
+                emotions like happy, sad, or angry by analyzing facial features
+                efficiently.
+              </p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="12.jpg"
+              class="card-img-top"
+              style="height: 200px; object-fit: cover"
+              alt="Project 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">TEXT TO SPEECH</h5>
+              <p class="card-text">
+                ext‑to‑Speech in HTML uses the Web Speech API to convert written
+                text into spoken audio. It allows browsers to read content aloud
+                with adjustable voice, pitch, and speed for accessibility.
+              </p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="14.png"
+              class="card-img-top"
+              style="height: 200px; object-fit: cover"
+              alt="Project 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">MINESWEEPER</h5>
+              <p class="card-text">
+                Minesweeper is built in Python with NumPy to manage the game
+                grid efficiently. It places mines, calculates neighbor counts,
+                and updates the board using fast array operations.
+              </p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="bg-light py-5">
+      <div class="container">
+        <h2 class="fw-bold text-center mb-4">Contact Me</h2>
+        <h5 class="text-center mb-4">
+          Got an idea or question? Let’s make something amazing together.
+        </h5>
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-8 col-sm-10">
+            <div class="card shadow-lg p-4">
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Your Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Your Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    name="message"
+                    rows="4"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">
+                  <i class="bi bi-send"></i> Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+      <div class="container text-center">
+        <!-- Branding -->
+        <h5 class="fw-bold">Hari Prasath</h5>
+        <p class="mb-2">Developer | Python | Automation</p>
+
+        <!-- Links -->
+        <div class="mb-3">
+          <a href="#project" class="text-white me-3">Projects</a>
+          <a href="#contact" class="text-white me-3">Contact</a>
+          <a href="#about" class="text-white">About</a>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="mb-3">
+          <a href="#" class="text-white me-3"><i class="bi bi-github"></i></a>
+          <a href="#" class="text-white me-3"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-envelope"></i></a>
+        </div>
+
+        <!-- Copyright -->
+        <p class="mb-0">&copy; 2025 Hari Prasath. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
